@@ -1,45 +1,49 @@
-div{
-     font-family: "Metamorphous", serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
-    max-width: 300px; 
+div {
+  font-family: "Metamorphous", serif, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell;
+  max-width: 300px;
+  margin: auto;
 }
 body {
-    background-image: url("heaven-bg.webp");
-    background-size: fill;
-    /* background-position: -265px; */
-    background-position: 54%  20%;
-    font-weight: bold;
-    text-align: center;
+  background-image: url("heaven-bg.webp");
+  background-size: cover;
+  /* background-position: -265px; */
+  background-position: 65% 50%;
+  font-weight: bold;
+  text-align: center;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
-
+.padding {
+  padding-left: 25px;
+}
 button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-family: "Metamorphous", serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
-    
-    /* font-weight: bold; */
-    width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: "Metamorphous", serif, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell;
+
+  /* font-weight: bold; */
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
 
 #increment-btn {
-    background: darkred;
+  background: darkred;
 }
 
 #save-btn {
-    background: darkgreen;
+  background: darkgreen;
 }
-
